@@ -3,7 +3,6 @@ library(tidyverse)
 library(ggplot2)
 
 ###################
-setwd("~/Desktop/Rshiny/play") #Mac OS specific
 NYFedData <- read.csv("debt_balance.csv") 
 i <- 1
 while (i < length(NYFedData[,1])) 
